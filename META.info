@@ -1,0 +1,24 @@
+{
+  "name" : "DBIx::NamedQueries",
+  "perl" : "6.*",
+  "test-depends" : [
+    "Test::META"
+  ],
+  "depends" : [
+    "Bailador",
+    "DBIx::NamedQueries",
+  ],
+  "provides" : {
+    "DBIx::NamedQueries" : "lib/DBIx/NamedQueries.pm6"
+  },
+  "version" : "0.0.1",
+  "authors" : [
+    "Mario Zieschang"
+  ],
+  "source-url" : "git://github.com/mziescha/perl6-Bailador-Plugin-NamedQueries.git",
+  "support" : {
+    "bugtracker" : "https://github.com/mziescha/perl6-Bailador-Plugin-NamedQueries/issues",
+    "source" : "git://github.com/mziescha/perl6-Bailador-Plugin-NamedQueries.git"
+  },
+  "description" : "DBIx::NamedQueries module written in perl6."
+}

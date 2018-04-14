@@ -1,5 +1,7 @@
 use v6.c;
+
 use Bailador::Plugins;
+
 use DBIx::NamedQueries;
 
 class Bailador::Plugin::NamedQueries:ver<0.001000>:auth<cpan:MZIESCHA> is Bailador::Plugin {

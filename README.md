@@ -27,14 +27,12 @@ INSTALLATION
 DESCRIPTION
 ===========
 
-This plugin makes it very easy to create [Dancer2](Dancer2) applications that interface with databases. It automatically exports the keyword `schema` which returns a [DBIx::Class::Schema](DBIx::Class::Schema) object. It also exports the keywords `resultset` and `rset`. You just need to configure your database connection information. For performance, schema objects are cached in memory and are lazy loaded the first time they are accessed.
-
 This plugin is a thin wrapper around [DBIx::NamedQueries](DBIx::NamedQueries).
 
 CONFIGURATION
 =============
 
-Configuration can be done in your [Dancer2](Dancer2) config file. This is a minimal example. It defines one database named `default`:
+Configuration can be done in your [Bailador](Bailador) config file. This is a minimal example:
 
     plugins:
       NamedQueries:

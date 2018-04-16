@@ -89,18 +89,12 @@ Build a class for yout predefined SQL-Statements
  
 =head1 DESCRIPTION
 
-This plugin makes it very easy to create L<Dancer2> applications that interface with databases.
-It automatically exports the keyword C<schema> which returns a L<DBIx::Class::Schema> object.
-It also exports the keywords C<resultset> and C<rset>.
-You just need to configure your database connection information.
-For performance, schema objects are cached in memory and are lazy loaded the first time they are accessed.
- 
 This plugin is a thin wrapper around L<DBIx::NamedQueries>.
  
 =head1 CONFIGURATION
  
-Configuration can be done in your L<Dancer2> config file.
-This is a minimal example. It defines one database named C<default>:
+Configuration can be done in your L<Bailador> config file.
+This is a minimal example:
  
     plugins:
       NamedQueries:
@@ -129,9 +123,9 @@ This is a minimal example. It defines one database named C<default>:
 
 =head2 object
 
-=head2 dispose
+Returns the DBIx::NamedQueries object for itself.
 
-=head2 that
+=head2 dispose
 
 =head1 TODO
 
